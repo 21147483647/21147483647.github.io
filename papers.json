@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Example Paper Title on Quantum Computing",
+    "authors": "A. Author, B. Author",
+    "field": "量子信息",
+    "year": 2024,
+    "abstract": "这里是论文摘要的中文概括，大约 2-3 句话，说明论文的主要贡献和意义。",
+    "link": "https://arxiv.org"
+  },
+  {
+    "title": "Example Paper Title on Condensed Matter Physics",
+    "authors": "C. Author, D. Author",
+    "field": "凝聚态物理",
+    "year": 2023,
+    "abstract": "这里是论文摘要的中文概括，大约 2-3 句话，说明论文的主要贡献和意义。",
+    "link": "https://arxiv.org"
+  }
+]
