@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>学术快线 - 东北林业大学物理研讨协会</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, sans-serif;
+      background: #f5f7fa;
+      color: #222;
+      line-height: 1.6;
+    }
+    nav {
+      position: sticky;
+      top: 0;
+      background: #1a3a5c;
+      padding: 14px 20px;
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      flex-wrap: wrap;
+      z-index: 100;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    }
+    nav a {
+      color: #cfe0f0;
+      text-decoration: none;
+      font-size: 15px;
+      transition: color 0.2s;
+    }
+    nav a:hover { color: #fff; }
+    header {
+      background: linear-gradient(135deg, #1a3a5c, #2c5f8a);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 { margin: 0 0 8px; font-size: 28px; }
+    header p { margin: 0; opacity: 0.9; }
+    main {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+    .notice {
+      background: #fff8e1;
+      border-left: 4px solid #f0a500;
+      padding: 16px 20px;
+      border-radius: 6px;
+      margin-bottom: 30px;
+      font-size: 14px;
+      color: #665200;
+    }
+    .category {
+      margin-bottom: 36px;
+    }
+    .category h2 {
+      font-size: 20px;
+      color: #1a3a5c;
+      border-bottom: 2px solid #e0e8f0;
+      padding-bottom: 8px;
+      margin-bottom: 18px;
+    }
+    .link-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 14px;
+    }
+    .link-card {
+      background: white;
+      border-radius: 10px;
+      padding: 16px 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+      transition: transform 0.2s, box-shadow 0.2s;
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+    .link-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+    }
+    .link-card h3 {
+      margin: 0 0 4px;
+      font-size: 16px;
+      color: #1a3a5c;
+    }
+    .link-card p {
+      margin: 0;
+      font-size: 13px;
+      color: #777;
+    }
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      font-size: 14px;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">首页</a>
+    <a href="papers.html">论文推荐</a>
+    <a href="journals.html">学术快线</a>
+    <a href="#">诺奖物理</a>
+    <a href="#">联系我们</a>
+  </nav>
+
+  <header>
+    <h1>学术快线</h1>
+    <p>常用物理期刊与预印本平台快捷入口</p>
+  </header>
+
+  <main>
+
+    <div class="notice">
+      ⚠️ <strong>使用须知：</strong>本页部分链接需在<strong>校园网</strong>或<strong>学校 VPN</strong> 环境下才能访问全文。请勿使用工具批量下载，以免影响全校师生正常使用。
+    </div>
+
+    <div class="category">
+      <h2>综合与顶级期刊</h2>
+      <div class="link-grid">
+        <a class="link-card" href="https://www.nature.com/nphys/" target="_blank">
+          <h3>Nature Physics</h3>
+          <p>自然·物理</p>
+        </a>
+        <a class="link-card" href="https://www.science.org/journal/science" target="_blank">
+          <h3>Science</h3>
+          <p>科学</p>
+        </a>
+        <a class="link-card" href="https://journals.aps.org/prl/" target="_blank">
+          <h3>Physical Review Letters</h3>
+          <p>PRL，物理学顶级快报</p>
+        </a>
+        <a class="link-card" href="https://www.pnas.org/" target="_blank">
+          <h3>PNAS</h3>
+          <p>美国科学院院刊</p>
+        </a>
+      </div>
+    </div>
+
+    <div class="category">
+      <h2>凝聚态物理</h2>
+      <div class="link-grid">
+        <a class="link-card" href="https://journals.aps.org/prb/" target="_blank">
+          <h3>Physical Review B</h3>
+          <p>凝聚态与材料物理</p>
+        </a>
+        <a class="link-card" href="https://www.nature.com/nmat/" target="_blank">
+          <h3>Nature Materials</h3>
+          <p>自然·材料</p>
+        </a>
+        <a class="link-card" href="https://journals.aps.org/prx/" target="_blank">
+          <h3>Physical Review X</h3>
+          <p>PRX，开放获取</p>
+        </a>
+      </div>
+    </div>
+
+    <div class="category">
+      <h2>高能物理与核物理</h2>
+      <div class="link-grid">
+        <a class="link-card" href="https://journals.aps.org/prd/" target="_blank">
+          <h3>Physical Review D</h3>
+          <p>粒子、场、引力与宇宙学</p>
+        </a>
+        <a class="link-card" href="https://www.sciencedirect.com/journal/nuclear-physics-b" target="_blank">
+          <h3>Nuclear Physics B</h3>
+          <p>核物理与粒子物理</p>
+        </a>
+        <a class="link-card" href="https://link.springer.com/journal/13130" target="_blank">
+          <h3>JHEP</h3>
+          <p>高能物理杂志</p>
+        </a>
+      </div>
+    </div>
+
+    <div class="category">
+      <h2>量子信息与光学</h2>
+      <div class="link-grid">
+        <a class="link-card" href="https://journals.aps.org/pra/" target="_blank">
+          <h3>Physical Review A</h3>
+          <p>原子、分子与光学物理</p>
+        </a>
+        <a class="link-card" href="https://quantum-journal.org/" target="_blank">
+          <h3>Quantum</h3>
+          <p>开放获取量子期刊</p>
+        </a>
+        <a class="link-card" href="https://opg.optica.org/" target="_blank">
+          <h3>Optica</h3>
+          <p>光学与光子学</p>
+        </a>
+      </div>
+    </div>
+
+    <div class="category">
+      <h2>预印本平台（免费全文）</h2>
+      <div class="link-grid">
+        <a class="link-card" href="https://arxiv.org/" target="_blank">
+          <h3>arXiv</h3>
+          <p>物理学预印本，免费</p>
+        </a>
+        <a class="link-card" href="http://chinaxiv.org/" target="_blank">
+          <h3>ChinaXiv</h3>
+          <p>中国科学院预印本平台</p>
+        </a>
+      </div>
+    </div>
+
+    <div class="category">
+      <h2>校内资源</h2>
+      <div class="link-grid">
+        <a class="link-card" href="https://ds.carsi.edu.cn/" target="_blank">
+          <h3>CARSI 统一认证</h3>
+          <p>校外访问知网、万方等</p>
+        </a>
+        <a class="link-card" href="#" target="_blank">
+          <h3>学校图书馆</h3>
+          <p>请替换为学校图书馆网址</p>
+        </a>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    © 2026 东北林业大学物理研讨协会
+  </footer>
+
+</body>
+</html>
