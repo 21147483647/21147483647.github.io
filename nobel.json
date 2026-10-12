@@ -1,0 +1,65 @@
+[
+  {
+    "year": 2026,
+    "title": "冰立方中微子天文台与高能天体物理中微子的发现",
+    "winners": "弗朗西斯·哈尔岑（Francis Halzen）",
+    "body": [
+      "表彰他对<strong>冰立方中微子天文台</strong>的决定性贡献，以及发现具有天体物理起源的<strong>高能中微子</strong>。",
+      "1988年提出利用南极冰层探测中微子的设想，推动建成冰立方中微子天文台。该设施利用约1立方千米的南极冰体，探测到来自太阳系外的高能中微子，开创了中微子天文学的新领域。"
+    ]
+  },
+  {
+    "year": 2025,
+    "title": "宏观量子力学隧穿与电路中的能量量子化",
+    "winners": "John Clarke、Michel H. Devoret、John M. Martinis",
+    "body": [
+      "表彰他们在<strong>宏观量子力学隧穿</strong>和<strong>电路中的能量量子化</strong>方面的发现。他们通过实验证明，量子力学的奇特性质可以在肉眼可见的宏观尺度上显现。",
+      "利用超导电路，在宏观尺度上观测到量子隧穿和能级量子化，为量子计算（如超导量子比特）奠定了物理基础。"
+    ]
+  },
+  {
+    "year": 2024,
+    "title": "基于人工神经网络的机器学习",
+    "winners": "John J. Hopfield、Geoffrey E. Hinton",
+    "body": [
+      "表彰他们在<strong>基于人工神经网络的机器学习</strong>方面的基础性发现和发明。",
+      "Hopfield 提出了 Hopfield 网络，Hinton 发明了玻尔兹曼机，为现代深度学习奠定了基础。他们的工作把统计物理的思想引入了机器学习。"
+    ]
+  },
+  {
+    "year": 2023,
+    "title": "产生阿秒光脉冲的实验方法",
+    "winners": "Pierre Agostini、Ferenc Krausz、Anne L'Huillier",
+    "body": [
+      "表彰他们开发出<strong>产生阿秒光脉冲</strong>的实验方法，用于研究物质中的电子动力学。",
+      "阿秒（10⁻¹⁸ 秒）是电子运动的自然时间尺度。他们的工作让人类第一次能够看到电子在原子和分子中的超快运动。"
+    ]
+  },
+  {
+    "year": 2022,
+    "title": "量子纠缠实验与贝尔不等式验证",
+    "winners": "Alain Aspect、John F. Clauser、Anton Zeilinger",
+    "body": [
+      "表彰他们用<strong>纠缠光子实验</strong>验证了贝尔不等式，开创了量子信息科学。",
+      "他们的实验证明量子纠缠是真实存在的，排除了隐变量理论。这为量子通信、量子计算和量子密码学奠定了实验基础。"
+    ]
+  },
+  {
+    "year": 2021,
+    "title": "复杂物理系统的研究",
+    "winners": "Syukuro Manabe、Klaus Hasselmann、Giorgio Parisi",
+    "body": [
+      "表彰他们对<strong>复杂系统</strong>的研究，包括地球气候的物理建模和复杂系统的无序与涨落。",
+      "Manabe 和 Hasselmann 奠定了气候模型的物理基础，Parisi 发现了从原子到行星尺度的复杂系统中无序与涨落的相互作用。"
+    ]
+  },
+  {
+    "year": 2020,
+    "title": "黑洞的发现与银河系中心致密天体",
+    "winners": "Roger Penrose、Reinhard Genzel、Andrea Ghez",
+    "body": [
+      "表彰他们发现<strong>黑洞的形成</strong>是广义相对论的可靠预言，以及<strong>银河系中心存在超大质量致密天体</strong>。",
+      "Penrose 用数学方法证明黑洞是广义相对论的必然结果，Genzel 和 Ghez 通过长期观测证实银河系中心存在超大质量黑洞。"
+    ]
+  }
+]
